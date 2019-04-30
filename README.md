@@ -10,7 +10,7 @@ E8后台项目 前端相关文档说明
 git clone https://github.com/ruoqiang/e8descriptiondocuments.git
 ```
 
-进入 `E8DescriptionDocument` 目录后安装项目依赖：
+进入 `e8descriptiondocuments` 目录后安装项目依赖：
 
 ```bash
 npm install
