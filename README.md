@@ -7,7 +7,7 @@ E8后台项目 前端相关文档说明
 首先 clone 本项目：
 
 ```bash
-git clone https://github.com/ruoqiang/E8DescriptionDocument.git
+git clone https://github.com/ruoqiang/e8descriptiondocuments.git
 ```
 
 进入 `E8DescriptionDocument` 目录后安装项目依赖：

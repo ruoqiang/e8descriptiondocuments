@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ruoqiang/E8DescriptionDocument.git"
+    "url": "git+https://github.com/ruoqiang/e8descriptiondocuments.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ruoqiang/E8DescriptionDocument/issues"
+    "url": "https://github.com/ruoqiang/e8descriptiondocuments/issues"
   },
-  "homepage": "https://github.com/ruoqiang/E8DescriptionDocument#readme",
+  "homepage": "https://github.com/ruoqiang/e8descriptiondocuments#readme",
   "devDependencies": {
     "vuepress": "^1.0.0-alpha.44"
   }
