@@ -9,7 +9,7 @@ module.exports = {
     nav: [],
     sidebar: [
       {
-        title: 'UI常用片段',
+        title: 'UI常用代码片段',
         collapsable: false,
         children: [
           // ['chapter1/', 'Introduction'],
@@ -18,7 +18,7 @@ module.exports = {
         ]
       },
       {
-        title: 'javaScript 常用方法',
+        title: 'javaScript 常用代码片段与公共方法',
         collapsable: false,
         children: [
           'chapter2/type',
