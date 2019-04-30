@@ -1,0 +1,27 @@
+{
+  "name": "e8-system-doc",
+  "version": "1.0.0",
+  "description": "doc for E8 System",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruoqiang/E8DescriptionDocument.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruoqiang/E8DescriptionDocument/issues"
+  },
+  "homepage": "https://github.com/ruoqiang/E8DescriptionDocument#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  }
+}
