@@ -9,26 +9,30 @@ module.exports = {
     nav: [],
     sidebar: [
       {
-        title: 'UI常用代码片段',
+        title: '整体了解这个项目',
         collapsable: false,
         children: [
-          // ['chapter1/', 'Introduction'],
+          ['chapter1/', 'Introduction'],
           'chapter1/install',
           'chapter1/start'
         ]
       },
       {
-        title: 'javaScript 常用代码片段与公共方法',
+        title: 'UI常用代码片段',
         collapsable: false,
         children: [
           'chapter2/type',
           'chapter2/declare',
           'chapter2/interface',
-          'chapter2/class',
-          'chapter2/function',
-          'chapter2/generic',
+          'chapter2/class'
+        ]
+      },
+      {
+        title: 'js常用代码片段',
+        collapsable: false,
+        children: [
+          'chapter2/advance',
           'chapter2/inference',
-          'chapter2/advance'
         ]
       },
       {
