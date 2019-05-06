@@ -22,9 +22,9 @@ module.exports = {
         collapsable: false,
         children: [
           'chapter2/type',
-          'chapter2/declare',
-          'chapter2/interface',
-          'chapter2/class'
+          // 'chapter2/declare',
+          // 'chapter2/interface',
+          // 'chapter2/class'
         ]
       },
       {
@@ -32,7 +32,7 @@ module.exports = {
         collapsable: false,
         children: [
           'chapter2/advance',
-          'chapter2/inference',
+          // 'chapter2/inference',
         ]
       },
       {
