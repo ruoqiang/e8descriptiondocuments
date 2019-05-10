@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "doc for E8 System",
   "main": "index.js",
+  "node_versiom": "8.9.4",
   "directories": {
     "doc": "docs"
   },
