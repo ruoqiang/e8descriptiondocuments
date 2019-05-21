@@ -1,6 +1,6 @@
 # E8DescriptionDocument
 
-E8后台项目 前端相关文档说明
+E8项目 前端相关文档说明
 
 ## 启动文档
 

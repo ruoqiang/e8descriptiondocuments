@@ -1,45 +1,66 @@
 module.exports = {
   base: '/index/',
   dest: 'dist',
-  title: 'E8后台系统前端文档',
-  description: '如何快速找到对应的功能代码片段以及方法',
+  title: 'E8前端文档',
+  description: '如何快速找到对应项目的功能代码片段以及方法',
   themeConfig: {
     editLinks: false,
     docsDir: 'docs',
     nav: [],
     sidebar: [
       {
-        title: '整体了解这个项目',
+        title: 'C端后台系统',
         collapsable: false,
         children: [
           ['chapter1/', 'Introduction'],
           'chapter1/install',
-          'chapter1/start'
-        ]
-      },
-      {
-        title: 'UI常用代码片段',
-        collapsable: false,
-        children: [
+          'chapter1/start',
           'chapter2/type',
-          // 'chapter2/declare',
-          // 'chapter2/interface',
-          // 'chapter2/class'
-        ]
-      },
-      {
-        title: 'js常用代码片段',
-        collapsable: false,
-        children: [
           'chapter2/advance',
-          // 'chapter2/inference',
+          'chapter3/require'
         ]
       },
       {
-        'title': '后台系统界面模板',
+        title: '客户端后台系统',
         collapsable: false,
         children: [
-          'chapter3/require'
+          'chapter3/customerManage',
+        ]
+      },
+      {
+        title: '微信端项目',
+        collapsable: false,
+        children: [
+          'chapter3/wechat',
+          'chapter3/wechat2',
+        ]
+      },
+      {
+        'title': '官网项目',
+        collapsable: false,
+        children: [
+          'chapter3/guanwang'
+        ]
+      },
+      {
+        'title': '小程序端项目',
+        collapsable: false,
+        children: [
+          'chapter3/xiaochengxu'
+        ]
+      },
+      {
+        'title': '混合app项目',
+        collapsable: false,
+        children: [
+          'chapter3/hybridapp'
+        ]
+      },
+      {
+        'title': 'SVN使用注意点',
+        collapsable: false,
+        children: [
+          'chapter3/svnnotice'
         ]
       }
     ]

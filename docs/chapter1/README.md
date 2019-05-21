@@ -1,11 +1,12 @@
 # E8项目前端文档说明开始
 
-我是chapter1下的README.md文件，我相当于就是一个引导页，点击[http://localhost:8080/index/](http://localhost:8080/index/)页面的`开始阅读文档 →`就可以到本页面了
+我是一个引导页，点击[http://localhost:8080/index/](http://localhost:8080/index/)页面的`开始阅读文档 →`就可以到本页面了
 
-## 后台登录界面
+## C端后台登录界面
 
+我是一个代号叫Cyber的后台体系，简称C端后台系统。
 
-> 这里我们可以有一个公司后台系统登录界面的图片
+> 这里我们可以有一个C端后台系统登录界面的图片
 
 ![logo](./img/pc_img01.png)
 

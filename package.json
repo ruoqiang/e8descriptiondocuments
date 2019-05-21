@@ -1,7 +1,7 @@
 {
-  "name": "e8-system-doc",
+  "name": "e8-projects-doc",
   "version": "1.0.0",
-  "description": "doc for E8 System",
+  "description": "doc for E8 projects",
   "main": "index.js",
   "node_versiom": "8.9.4",
   "directories": {
