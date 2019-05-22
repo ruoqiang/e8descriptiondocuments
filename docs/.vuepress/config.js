@@ -1,5 +1,6 @@
 module.exports = {
-  base: '/index/',
+  // base: '/index/',
+  base: './',
   dest: 'dist',
   title: 'E8前端文档',
   description: '如何快速找到对应项目的功能代码片段以及方法',
