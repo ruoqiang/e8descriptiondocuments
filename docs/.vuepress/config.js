@@ -1,6 +1,6 @@
 module.exports = {
-  // base: '/index/',
-  base: './',
+  base: '/index/',
+  // base: './', //导致运行npm run dev 时http://localhost:8080./
   dest: 'dist',
   title: 'E8前端文档',
   description: '如何快速找到对应项目的功能代码片段以及方法',

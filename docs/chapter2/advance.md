@@ -194,6 +194,7 @@ layer.confirm('是否确定批量写卡？', {
 主要是调用后台接口，前端只是一句代码的事
 
 ```js
+//字段跟查询条件的字段一模一样，直接去查询条件出拿过了
 $("#outPut").click(function () {
             var CustomerName = $("#CustomerName").val();
             var CarNum = $.trim($("#CarNum").val());
@@ -202,11 +203,28 @@ $("#outPut").click(function () {
             var WriteCardTime = $("#WriteCardTime").val();
             var WriteCardTimes = $("#WriteCardTimes").val();
             var IsWriteCard = $("#IsWriteCard").val();
-            var PostTime = $("#PostTime").val();
-            var PostTimes = $("#PostTimes").val();
-            var IsPost = $("#IsPost").val();
-            var IsWrong = $("#IsWrong").val();
 
-            location.href = "/CustomerCardOpen/outPut?CustomerName=" + CustomerName + "&CarNum=" + CarNum + "&CardNum=" + CardNum + "&ExpressCompany=" + ExpressCompany + "&WriteCardTime=" + WriteCardTime + "&WriteCardTimes=" + WriteCardTimes + "&IsWriteCard=" + IsWriteCard + "&PostTime=" + PostTime + "&PostTimes=" + PostTimes + "&IsPost=" + IsPost + "&IsWrong=" + IsWrong;
+            location.href = "/CustomerCardOpen/outPut?CustomerName=" + CustomerName + "&CarNum=" + CarNum + "&CardNum=" + CardNum + "&ExpressCompany=" + ExpressCompany + "&WriteCardTime=" + WriteCardTime + "&WriteCardTimes=" + WriteCardTimes + "&IsWriteCard=" + IsWriteCard;
         })
+```
+
+## 图片旋转
+不是正方形的图片也可以居中旋转，并且右上角关闭按钮始终在右上角的位置
+- **旋转前**
+
+![弹窗口图片](./img/rotate.png)
+
+- **旋转后**
+
+![弹窗口图片](./img/rotate2.png)
+
+- **previewImg.js的使用**
+
+页面中直接引用previewImg.js，给一个元素class为Js_preImg_btn，保持背景图background与自定义属性data-img有同一个图片地址
+
+js文件引用、html相关代码
+```html
+<script src="~/Content/asset/layer/previewImg.js"></script>
+
+<span class="Js_preImg_btn" style="display:inline-block;vertical-align: middle; width:300px;height:300px;background:url('/Content/images/timg.jpg') center no-repeat;background-size:contain" data-img="/Content/images/timg.jpg"></span>
 ```
