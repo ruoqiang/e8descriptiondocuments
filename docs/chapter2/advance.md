@@ -1,7 +1,7 @@
 # js常用代码片段
 
 ## 下拉框
-输入框通过接口数据变成下拉框
+#### 输入框通过接口数据变成下拉框  `selectpage.js`的[使用文档](https://terryz.github.io/selectpage/)
 
 ![](./img/select.png)
 
@@ -27,7 +27,31 @@ $.ajax({
         });
 ```
 
-`selectpage.js`的[使用文档](https://terryz.github.io/selectpage/)
+
+
+下拉框初始化之后 设置选中某一项
+```js
+$('#ParentAgentName_form').val(value.ParentID);
+$('#ParentAgentName_form').selectPageRefresh(); //设置val后需要刷新列表
+```
+
+清空下拉框
+```js
+$('#ParentAgentName_form').selectPageClear();
+```
+禁用下拉框
+```js
+$('#ParentAgentName_form').selectPageDisabled(true);
+```
+解除禁用下拉框
+```js
+$('#ParentAgentName_form').selectPageDisabled(false);
+```
+
+#### 原生select下拉框禁用选择
+```js
+$("select").prop("disabled", true);
+```
 
 ## 日历选择
 输入框通过接js插件变成日历选择

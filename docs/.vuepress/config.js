@@ -18,7 +18,8 @@ module.exports = {
           'chapter1/start',
           'chapter2/type',
           'chapter2/advance',
-          'chapter3/require'
+          'chapter3/require',
+          'chapter1/aboutvue'
         ]
       },
       {
